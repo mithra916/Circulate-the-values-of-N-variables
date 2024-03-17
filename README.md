@@ -15,7 +15,14 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
-
+```
+def circulate():
+    s=n%len(my_lst)
+    return my_lst[s::] + my_lst[0:s]
+my_lst=eval(input())
+n=int(input())
+print("After circulating the values are:",circulate())
+```
 ## Output:
-
+![output](img 1.png)
 ## Result:
