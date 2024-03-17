@@ -24,5 +24,6 @@ n=int(input())
 print("After circulating the values are:",circulate())
 ```
 ## Output:
-![output](img 1.png)
+![img 1](https://github.com/mithra916/Circulate-the-values-of-N-variables/assets/149986612/2d0e24d8-f536-42e0-a97c-da7122aa6b58)
+
 ## Result:
