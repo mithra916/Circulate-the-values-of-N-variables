@@ -16,6 +16,8 @@ Using the slicing concept rotate the list
 ### Step 6: 
 ## Program:
 ```
+## DEVELOPED BY : R.LOGA MITHRA
+## REGISTER NUMBER :212223100027
 def circulate():
     s=n%len(my_lst)
     return my_lst[s::] + my_lst[0:s]
