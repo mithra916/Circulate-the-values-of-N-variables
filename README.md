@@ -6,18 +6,21 @@ PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
+Get the values from the user
 ### Step 2: 
+Assign the value of variable to a temporary variable
 ### Step 3: 
 Get the value from the user for the number of rotation
 ### Step 4: 
 Using the slicing concept rotate the list
-
-### Step 5: 
-### Step 6: 
+### Step 5:
+Print both the values it would be interchanged
+### Step 6:
+End the program
 ## Program:
-```
 ## DEVELOPED BY : R.LOGA MITHRA
 ## REGISTER NUMBER :212223100027
+```
 def circulate():
     s=n%len(my_lst)
     return my_lst[s::] + my_lst[0:s]
@@ -26,8 +29,7 @@ n=int(input())
 print("After circulating the values are:",circulate())
 ```
 ## Output:
-![img 1](https://github.com/mithra916/Circulate-the-values-of-N-variables/assets/149986612/2d0e24d8-f536-42e0-a97c-da7122aa6b58)
-
+![output](/py%20exp%202.png)
 ## Result:
 Thus the circulate of variables are successfully executed
 
